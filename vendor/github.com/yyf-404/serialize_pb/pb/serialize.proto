@@ -1,0 +1,21 @@
+syntax = "proto3"; // 版本声明，使用Protocol Buffers v3版本
+
+package serialize; // 包名
+
+
+// 定义一个服务
+service SerializeService {
+  //  方法
+  rpc SendMsg (MsgRequest) returns (MsgReply) {}
+}
+
+
+message MsgRequest {
+  string name = 1;
+  int32 id = 2;
+  bool isUser = 3;
+}
+message MsgReply {
+  int32 code = 1;
+  string message = 2;
+}
