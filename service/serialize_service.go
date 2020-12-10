@@ -15,9 +15,9 @@ const failure = 1
 func (s *SerializeService) SendMsg(ctx context.Context, req *serialize.MsgRequest) (*serialize.MsgReply, error) {
 	fmt.Printf("serializeService.SendMsg|req:%+v", req)
 	rsp := &serialize.MsgReply{Code: Success, Message: "success"}
-	if req.Name == "fail" {
-		rsp.Code = failure
-		rsp.Message = "failure"
-	}
+	//if req.Name == "fail" {
+	//	rsp.Code = failure
+	//	rsp.Message = "failure"
+	//}
 	return rsp, nil
 }

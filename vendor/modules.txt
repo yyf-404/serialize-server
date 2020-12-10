@@ -5,7 +5,7 @@ github.com/golang/protobuf/ptypes
 github.com/golang/protobuf/ptypes/any
 github.com/golang/protobuf/ptypes/duration
 github.com/golang/protobuf/ptypes/timestamp
-# github.com/yyf-404/serialize_pb v0.0.0-20201209093337-fdeed723129e
+# github.com/yyf-404/serialize_pb v0.0.0-20201209120518-fc4b284c322a
 ## explicit
 github.com/yyf-404/serialize_pb/pb
 # golang.org/x/net v0.0.0-20190311183353-d8887717615a
